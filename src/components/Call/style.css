@@ -15,6 +15,11 @@
         margin-top: 40%;
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    #jumbo p{
+        margin-top: 20%;
+    }
+}
 #jumbo button{
     background-color: #5FC789;
     color: white;

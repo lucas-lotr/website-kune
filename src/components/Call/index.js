@@ -10,6 +10,8 @@ const Call = props => {
                 <Col
                     xs={10}
                     xsOffset={1}
+                    sm={4}
+                    smOffset={2}
                     md={4}
                     mdOffset={2}
                     lg={4}
