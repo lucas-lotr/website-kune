@@ -9,6 +9,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Dogs from "./components/Dogs";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
         <Contact />
         <Donate />
         <Collaborate />
+        <Footer />
       </div>
     );
   }
