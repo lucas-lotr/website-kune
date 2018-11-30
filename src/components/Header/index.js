@@ -8,8 +8,7 @@ import {
     Navbar,
     Nav,
     NavItem,
-    Button,
-    Image
+    Button
     //NavDropdown,
     //MenuItem
 } from "react-bootstrap";
