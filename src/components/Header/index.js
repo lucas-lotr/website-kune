@@ -10,6 +10,12 @@ import {
 } from "react-bootstrap";
 
 const Header = props => {
+    function navScroll() {
+        setTimeout(function() {
+            window.scrollBy(0, -90);
+        }, 10);
+    }
+
     return (
         <Navbar id="navbar" fixedTop inverse collapseOnSelect>
             <Navbar.Header>
@@ -21,19 +27,19 @@ const Header = props => {
             <Navbar.Collapse>
                 <Nav id="navmenu" pullRight>
                     <NavItem className="nav" eventKey={1} href="#sobre">
-                        <Button>QUEM SOMOS</Button>
+                        <Button onClick={navScroll}>QUEM SOMOS</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={2} href="#">
-                        <Button>TRABALHO</Button>
+                        <Button onClick={navScroll}>TRABALHO</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={3} href="#">
-                        <Button>NOSSOS CÃES</Button>
+                        <Button onClick={navScroll}>NOSSOS CÃES</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={4} href="#">
-                        <Button>APOIADORES</Button>
+                        <Button onClick={navScroll}>APOIADORES</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={5} href="#colabore">
-                        <Button>COLABORE</Button>
+                        <Button onClick={navScroll}>COLABORE</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={6} href="#">
                         FB
