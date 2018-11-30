@@ -39,7 +39,7 @@ const Header = props => {
                     <NavItem className="nav" eventKey={1} href="#sobre">
                         <Button onClick={navScroll}>QUEM SOMOS</Button>
                     </NavItem>
-                    <NavItem className="nav" eventKey={2} href="#">
+                    {/* <NavItem className="nav" eventKey={2} href="#">
                         <Button onClick={navScroll}>TRABALHO</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={3} href="#">
@@ -47,7 +47,7 @@ const Header = props => {
                     </NavItem>
                     <NavItem className="nav" eventKey={4} href="#">
                         <Button onClick={navScroll}>APOIADORES</Button>
-                    </NavItem>
+                    </NavItem> */}
                     <NavItem className="nav" eventKey={5} href="#colabore">
                         <Button onClick={navScroll}>COLABORE</Button>
                     </NavItem>
