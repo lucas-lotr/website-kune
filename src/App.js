@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Call from "./components/Call";
 import Donate from "./components/Donate";
 import Collaborate from "./components/Collaborate";
+import About from "./components/About";
 
 class App extends Component {
     render() {
@@ -12,6 +13,7 @@ class App extends Component {
             <div id="home" className="App">
                 <Header />
                 <Call />
+                <About />
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>

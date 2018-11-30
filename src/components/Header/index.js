@@ -20,7 +20,7 @@ const Header = props => {
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav id="navmenu" pullRight>
-                    <NavItem className="nav" eventKey={1} href="#">
+                    <NavItem className="nav" eventKey={1} href="#sobre">
                         <Button>QUEM SOMOS</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={2} href="#">
