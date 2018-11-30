@@ -2,6 +2,15 @@
     background-color: #5FC789;
     color: white;
 }
+#col{
+    margin-bottom: 30px;
+}
 #colabore p{
     text-align: justify;
+}
+#colabore button{
+    border-color: white;
+    border-width: 3px;
+    width: 40%;
+    font-size: 150%;
 }
