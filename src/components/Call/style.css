@@ -2,10 +2,10 @@
     color: black;
     text-align: justify;
 }
-.btn{
+#jumbo button{
     background-color: #5FC789;
     color: white;
 }
-.btn:hover {
+#jumbo button:hover {
     background-color: rgb(80, 170, 116);
 }
