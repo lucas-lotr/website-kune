@@ -8,8 +8,9 @@ const Call = props => {
             <Row>
                 <br />
                 <Col
-                    xs={10}
-                    xsOffset={1}
+                    className="call-to-action"
+                    xs={4}
+                    xsOffset={2}
                     sm={4}
                     smOffset={2}
                     md={4}

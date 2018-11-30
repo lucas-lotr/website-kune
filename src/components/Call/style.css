@@ -7,19 +7,39 @@
     background-image: url(../../img/cachorro-top.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    padding-bottom: 26%;
     background-color: rgb(102, 102, 102);
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
     #jumbo p{
-        margin-top: 40%;
+        margin-top: 60%;
+        font-size: 14px !important;
+        
     }
+    
 }
-@media only screen and (min-width: 768px) and (max-width: 992px){
+@media only screen and (min-width: 600px) and (max-width: 992px){
     #jumbo p{
         margin-top: 20%;
+        font-size: 16px !important;
+    }
+    #jumbo{
+        padding-bottom: 36%;
     }
 }
+@media only screen and (min-width: 992px){
+    #jumbo p{
+        margin-top: 50%;
+    }
+    #jumbo{
+        padding-bottom: 36%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .call-to-action{
+        width: 100%
+    }
+}
+
 #jumbo button{
     background-color: #5FC789;
     color: white;
