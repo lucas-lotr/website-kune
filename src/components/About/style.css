@@ -19,6 +19,12 @@
     border-width: 3px;
     width: 40%;
 }
-.titulo{
+#sobre .titulo{
     font-size: 30px;
+}
+#sobre .texto{
+    text-align: justify;
+}
+#sobre .imgCentro{
+    margin: 0 auto;
 }
