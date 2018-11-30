@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import faceIcon from "./icon-face.svg";
-import instaIcon from "./icon-insta.svg";
-import logoBranco from "./logo-kune-branco.svg";
+import faceIcon from "../../img/icon-face.svg";
+import instaIcon from "../../img/icon-insta.svg";
+import logoBranco from "../../img/logo-kune-branco.svg";
 
 import {
     Navbar,

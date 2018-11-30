@@ -5,6 +5,7 @@ import Call from "./components/Call";
 import Donate from "./components/Donate";
 import Collaborate from "./components/Collaborate";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 class App extends Component {
     render() {
@@ -15,6 +16,7 @@ class App extends Component {
                 <About />
                 <Donate />
                 <Collaborate />
+                <Footer />
             </div>
         );
     }
