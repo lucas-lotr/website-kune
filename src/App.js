@@ -8,6 +8,7 @@ import Collaborate from "./components/Collaborate";
 import About from "./components/About";
 import Work from "./components/Work";
 import Dogs from "./components/Dogs";
+import Contact from "./components/Contact";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <About />
         <Work />
         <Dogs />
+        <Contact />
         <Donate />
         <Collaborate />
       </div>
