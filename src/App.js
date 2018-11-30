@@ -7,6 +7,7 @@ import Donate from "./components/Donate";
 import Collaborate from "./components/Collaborate";
 import About from "./components/About";
 import Work from "./components/Work";
+import Dogs from "./components/Dogs";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Call />
         <About />
         <Work />
+        <Dogs />
         <Donate />
         <Collaborate />
       </div>
