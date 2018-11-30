@@ -1,6 +1,19 @@
 .call{
-    color: black;
+    color: white;
     text-align: justify;
+}
+#jumbo{
+    margin-top: 50px;
+    background-image: url(https://via.placeholder.com/1920x800.png/404040/FFFFFF/?text=IMAGEM1);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-bottom: 22%;
+    background-color: rgb(102, 102, 102);
+}
+@media only screen and (max-width: 768px){
+    #jumbo p{
+        margin-top: 40%;
+    }
 }
 #jumbo button{
     background-color: #5FC789;
