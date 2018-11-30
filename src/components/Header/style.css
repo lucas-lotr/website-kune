@@ -1,0 +1,8 @@
+.nav {
+    background-color: rgb(48, 48, 48);
+    border-bottom-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
