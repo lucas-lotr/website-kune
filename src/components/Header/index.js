@@ -1,18 +1,17 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 import {
     Navbar,
     Nav,
-    NavItem
+    NavItem,
+    Button
     //NavDropdown,
     //MenuItem
-     } from 'react-bootstrap';
+} from "react-bootstrap";
 
-const Header = (props) => {
-
-    return(
-        
-        <Navbar className="nav" fixedTop inverse collapseOnSelect>
+const Header = props => {
+    return (
+        <Navbar id="navbar" fixedTop inverse collapseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
                     <a href="#home">React-Bootstrap</a>
@@ -20,21 +19,21 @@ const Header = (props) => {
                 <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
-                <Nav pullRight>
+                <Nav id="navmenu" pullRight>
                     <NavItem className="nav" eventKey={1} href="#">
-                        QUEM SOMOS
+                        <Button>QUEM SOMOS</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={2} href="#">
-                        TRABALHO
+                        <Button>TRABALHO</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={3} href="#">
-                        NOSSOS CÃES
+                        <Button>NOSSOS CÃES</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={4} href="#">
-                        APOIADORES
+                        <Button>APOIADORES</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={5} href="#colabore">
-                        COLABORE
+                        <Button>COLABORE</Button>
                     </NavItem>
                     <NavItem className="nav" eventKey={6} href="#">
                         FB
@@ -52,9 +51,7 @@ const Header = (props) => {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-
     );
-
-}
+};
 
 export default Header;
