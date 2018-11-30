@@ -53,7 +53,7 @@ class About extends Component {
                         </Col>
                     </Row>
                     <br />
-                    <Row className="justify-content-center">
+                    <Row hidden className="justify-content-center">
                         <Image
                             className="imgCentro"
                             src="https://via.placeholder.com/700x700"
@@ -62,7 +62,7 @@ class About extends Component {
                         />
                     </Row>
                     <br />
-                    <Row className="justify-content-center">
+                    <Row hidden className="justify-content-center">
                         <Col md={6} mdOffset={3} lg={6} lgOffset={3}>
                             <p className="texto">
                                 Os cães de assistência são treinados para
