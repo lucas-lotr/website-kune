@@ -1,10 +1,15 @@
 import React from "react";
 import "./style.css";
+import faceIcon from "./icon-face.svg";
+import instaIcon from "./icon-insta.svg";
+import logoBranco from "./logo-kune-branco.svg";
+
 import {
     Navbar,
     Nav,
     NavItem,
-    Button
+    Button,
+    Image
     //NavDropdown,
     //MenuItem
 } from "react-bootstrap";
@@ -20,7 +25,13 @@ const Header = props => {
         <Navbar id="navbar" fixedTop inverse collapseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <a href="#home">React-Bootstrap</a>
+                    <a href="#home">
+                        <img
+                            className="logo-top"
+                            src={logoBranco}
+                            alt="Kuné Brasil"
+                        />
+                    </a>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
@@ -41,11 +52,19 @@ const Header = props => {
                     <NavItem className="nav" eventKey={5} href="#colabore">
                         <Button onClick={navScroll}>COLABORE</Button>
                     </NavItem>
-                    <NavItem className="nav" eventKey={6} href="#">
-                        FB
+                    <NavItem eventKey={6} href="#">
+                        <img
+                            className="social-icon"
+                            src={faceIcon}
+                            alt="face"
+                        />
                     </NavItem>
                     <NavItem className="nav" eventKey={7} href="#">
-                        INSTA
+                        <img
+                            className="social-icon"
+                            src={instaIcon}
+                            alt="insta"
+                        />
                     </NavItem>
                     {/* <NavDropdown eventKey={8} title="Dropdown" id="basic-nav-dropdown">
                         <MenuItem eventKey={8.1}>Action</MenuItem>
