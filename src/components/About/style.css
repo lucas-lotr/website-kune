@@ -1,0 +1,30 @@
+#sobre blockquote{
+    color: #A13ACD;
+    border-left-color: #A13ACD;
+    text-align: left;
+    font-size: 20px;
+}
+#sobre footer{
+    color: #A13ACD;
+    text-align: left;
+}
+.texto-inferior{
+    text-align: left;
+    font-size: 14px
+}
+#sobre .btn{
+    background-color: transparent;
+    color: #A13ACD;
+    border-color: #A13ACD;
+    border-width: 3px;
+    width: 40%;
+}
+#sobre .titulo{
+    font-size: 30px;
+}
+#sobre .texto{
+    text-align: justify;
+}
+#sobre .imgCentro{
+    margin: 0 auto;
+}

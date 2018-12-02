@@ -1,0 +1,29 @@
+#planos{
+    background-color: #43936F;
+    color: white;
+}
+#col2{
+    margin-bottom: 30px;
+}
+#planos p{
+    text-align: justify;
+}
+#planos button{
+    background-color: #43936F;
+    color: white;
+    border-color: white;
+    border-width: 3px;
+    font-size: 150%;
+    margin: 10px;
+}
+
+#planos button:hover{
+    background-color: rgb(70, 145, 100);
+    color: rgb(82, 82, 82);
+}
+
+@media only screen and (min-width: 800px){
+    #planos button{
+        width: 20%;
+    }
+}

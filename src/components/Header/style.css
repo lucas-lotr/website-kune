@@ -1,0 +1,44 @@
+#navbar {
+    background-color: rgb(48, 48, 48);
+    border-bottom-color: transparent;
+}
+#navbar .nav{
+    border-color: aliceblue;
+    border-width: 3px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.nav button{
+    margin: 0;
+    background-color: transparent;
+    color: white;
+    border-width: 3px;
+    border-color: transparent;
+}
+.nav button:hover{
+    background-color: transparent;
+    color: white;
+    border-width: 3px;
+    border-color: white;
+}
+
+.social-icon{
+    width: 15px;
+    margin: 0;
+}
+.logo-top{
+    width: 100px;
+}
+
+@media only screen and (max-width: 992px){
+    .logo-top{
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .logo-top{
+        width: 60px;
+    }
+}

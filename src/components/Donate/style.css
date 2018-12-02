@@ -1,0 +1,22 @@
+#colabore{
+    background-color: #5FC789;
+    color: white;
+}
+#col{
+    margin-bottom: 30px;
+}
+#colabore p{
+    text-align: justify;
+}
+#colabore button{
+    background-color: #5FC789;
+    color: white;
+    border-color: white;
+    border-width: 3px;
+    width: 40%;
+    font-size: 150%;
+}
+#colabore button:hover{
+    background-color: rgb(82, 173, 119);
+    color: rgb(82, 82, 82);
+}
