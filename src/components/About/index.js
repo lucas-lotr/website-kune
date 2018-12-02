@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./style.css";
 import { Grid, Row, Col, Button, Image } from "react-bootstrap";
+import cachorro2 from "../../img/cachorro-2.jpg";
+import cachorro3 from "../../img/cachorro-3.jpg";
 
 class About extends Component {
     state = { expandHistory: false };
@@ -108,7 +110,7 @@ class About extends Component {
                     <Row className="justify-content-center">
                         <Image
                             className="imgCentro"
-                            src="https://via.placeholder.com/700x700"
+                            src={cachorro2}
                             responsive
                             alt=""
                         />
@@ -144,7 +146,7 @@ class About extends Component {
                         lgOffset={1}
                         className="my-col"
                     >
-                        <img src="https://via.placeholder.com/350x350" alt="" />
+                        <Image responsive src={cachorro3} alt="" />
                     </Col>
                     <Col md={4} lg={4} className="my-col">
                         <br />
