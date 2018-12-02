@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/cachorro-top.df317984.jpg"
   },
   {
-    "revision": "1d4246a2fb7e491fa7ecb0122a470e24",
+    "revision": "8f5ab4a69d746b665b78891140331bf9",
     "url": "/index.html"
   }
 ];
